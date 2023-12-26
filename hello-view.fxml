@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javapro.HelloController">
+   <children>
+      <Text layoutX="221.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="job portal">
+         <font>
+            <Font name="System Bold" size="34.0" />
+         </font>
+      </Text>
+      <Button fx:id="button1" layoutX="52.0" layoutY="188.0" mnemonicParsing="false" onAction="#onclick1" text="register user">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="button4" layoutX="444.0" layoutY="188.0" mnemonicParsing="false" onAction="#onclick4" text="search jobs">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="button2" layoutX="261.0" layoutY="188.0" mnemonicParsing="false" onAction="#onclick2" text="post job">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+      <Button fx:id="button" layoutX="290.0" layoutY="305.0" mnemonicParsing="false" onAction="#onclick" text="exit">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
